@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>List</title>
+        <script defer src="index.js"></script>
+    </head>
+    <style>
+        .list-item {
+            margin-bottom: 8px;
+        }
+        .list-item > p, button {
+            display: inline;
+        }
+        .list-item > p {
+            margin-right: 8px;
+        }
+    </style>
+    <body>
+        <main>
+            <section>
+                <input type="text" id="input-item" />
+                <button type="submit" id="btn-add-item">Add Item</button>
+            </section>
+            <section>
+                <h1>Items</h1>
+                <ul class="list"></ul>
+            </section>
+        </main>
+    </body>
+</html>
